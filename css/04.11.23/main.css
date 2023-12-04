@@ -1,0 +1,225 @@
+body{
+    font-family: Roboto,sans-serif;
+}
+.navdiv{
+    box-shadow: 0.1px 0 2px 0.1px #676666;
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    z-index: 10;
+    background-color: #fff;
+}
+.contener{
+    width: 1100px;
+    margin: 0 auto;
+}
+.li > a{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+    padding-inline: 2rem;
+}
+
+.navitem{
+    margin-right: 2rem;
+    border: none;
+}
+.navitems{
+    padding-left: 10rem;
+  
+}
+.icon{
+    margin-top: -0.5rem;
+}
+.button1{
+    padding:15px;
+    padding-inline: 20px;
+    border-radius: 0.5rem;
+    border: none;
+    color: #fff;
+    background-color: #3AB548;
+    text-transform: capitalize;
+}
+.section{
+    width: 100%;
+    position: relative;
+}
+.shar{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #3AB548;
+}
+.shar1{
+    right: 100px;
+    top: -80px;
+}
+.shar2{
+    top: 100px;
+    width: 180px;
+    height: 180px;
+}
+.shar3{
+    right: 90px;
+    top: 450px;
+    width: 250px;
+    height: 250px;
+}
+.section1{
+    margin-top: 10rem;
+    
+}
+.row1 > div{
+   
+    
+}
+.col1 h1{
+    color: #3AB548;
+    font-size: 4rem;
+    font-weight: 700;
+    ma
+    
+}
+.col1 h3{
+    font-size: 2rem;
+    font-weight: 550;
+}
+.col1 > img {
+    
+    border-bottom-right-radius: 500px;
+    margin-top: -2.5rem;
+    height: 90%;
+    margin-left: 8rem;
+}
+.button2{
+    padding:25px;
+    padding-inline: 40px;
+    border-radius: 0.5rem;
+    border: 2px solid #3AB548;
+    color: #3AB548;
+    background-color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 50px;
+}
+.section2{
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+    font-family: roboto, sans-serif;
+}
+.section2 h1{
+font-size: 2.2em;
+font-weight: 600;
+}
+.section2 h2{
+    font-size: 2.2rem;
+font-weight: 600;
+color: #3AB548;
+margin-top: 50px;
+}
+.section3{
+  
+}
+.col3 {
+    position: relative;
+    padding: 30px;
+    margin: 15px;
+    background-color: #F8F8F8;
+    border-radius: 0.5rem;
+    transition: all 0.5s;
+    border: 2px solid #fff;
+    color: #000;
+   
+}
+.col3:hover {
+    position: relative;
+    padding: 30px;
+    margin: 15px;
+    background-color: #F8F8F8;
+    border-radius: 0.5rem;
+    border: 2px solid #3AB548;
+    transform:translateY(-10px);
+   
+    color: #000;
+   
+}
+
+.col3 h3 {
+    margin-top: 20px;
+    color: var(--color-1);
+    font-size: 30px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -1px;
+    line-height: 1.2;
+   
+}
+.col3 h4{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-top: 10px;
+    
+   
+}
+.col3 h5{
+    position: absolute;
+    margin: 20px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+    left: 30px;
+    bottom: 0;
+
+}
+.col3 p{
+    margin: 20px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+   
+}
+
+.js{
+    width: 100px;
+}
+.js2{
+    width: 200px;
+}
+.js1{
+    position: absolute;
+    font-size: 13px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 1.23;
+    order: 0;
+    text-align: right;
+    text-transform: uppercase;
+    right: 30px;
+    top: 30px;
+}
+.react{
+    position: absolute;
+    color: rgba(20,16,41,.8);
+    font-size: 13px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 1.23;
+    order: 0;
+    text-align: right;
+    text-transform: uppercase;
+    right: 30px;
+    top: 30px;
+}

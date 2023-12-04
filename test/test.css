@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: 10px solid black;
+    transition: 10s;
+    transition-property:all;
+    transition-timing-function: linear;
+}
+.container:hover{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    transform: rotate(4500deg);
+    transition-delay: 2ms;
+}

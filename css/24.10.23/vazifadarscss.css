@@ -1,0 +1,235 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contener{
+    width: 1560px;
+    margin: 0 auto;
+}
+hr{
+    width: 90%;
+    border: 1px solid #d4d4d4;
+}
+.header-section{
+    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+}
+.header-items{
+    display: inline-block;
+
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+}
+.new-products{
+    margin-top: -30px;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #222947;
+}
+.header-item{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 700;
+    color: #A0A3A8;
+    text-decoration:;
+}
+.header-item:hover{
+    color: #D30B24;
+    border-bottom: 4px solid #D30B24;
+    height: 30px;
+    
+}
+.header-item.active{
+    color: #D30B24;
+    border-bottom: 4px solid #D30B24;
+    height: 30px;
+}
+/* gajetlar */
+.gajets{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    
+}
+.gajet{
+    position: relative;
+    width: 23%;
+    border: 3px solid #d4d4d4;
+    border-bottom: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.new1{
+    position: absolute;
+   background-color:#D10024 ;
+    padding: 7px 25px 7px 25px;
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #fff;
+    top: 10px;
+    right: 10px;
+}
+.new2{
+    position: absolute;
+   border: 3px solid #D10024;
+    padding: 5px 20px 5px 20px;
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #D10024;
+    top: 10px;
+    right: 10px;
+}
+.gajet img{
+    display: inline-block;
+    width: 80%;
+    
+    
+}
+.gajet h4{
+    width: 100%;
+    font-size: 16px;
+    margin-top: -10px;
+    color: #D30B24;
+    text-align: center;
+    
+}
+.star{
+    margin-top: -18px;
+    
+    width: 31%;
+    background-color: #fff;
+    margin-left: 128px;
+}
+.gajet h3{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #D3D6D6;
+}
+.gajet h2{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.gajet h1{
+    font-size: 30px;
+    color: #D30B24;
+}
+.dell{
+    font-size: 20px;
+    color: #D3D6D6;
+}
+.icons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.reklama{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 90px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+/* cards */
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.card img{
+width: 76px;  
+display: inline;  
+color: #fff;
+
+}
+.card{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 50px;
+    margin-top: 100px;
+    background-color: #012C3D;
+}
+.card h2 {
+    text-transform: capitalize;
+    font-size: 32px;
+    color: #fff;
+}
+.card p{
+    font-size: 28px;
+   
+    color: #fff;
+}
+.redline{
+    width: 100px;
+    height: 8px;
+    background-color: red;
+    margin-top: 20px;
+}
+/* mevalar qismi */
+.fruits{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 70px;
+    background-color: #F4F4F4;
+    padding: 30px;
+}
+.fruit img{
+    width: 100%;
+   
+}
+.fruit{
+    position: relative;
+   
+    
+    text-align: center;
+    background-color: #fff;
+}
+.fruit h2{
+    font-size: 34px;
+    text-transform: capitalize;
+}
+.fruit h3 {
+    font-size: 32px;
+    color: green;
+}
+.del2{
+    color: #A0A3A8;
+}
+.icon{
+    display: flex;
+}
+.icon i{
+    color: green;
+}
+.eye{
+    width: 100%;
+    padding: 20px;
+    font-size: 20px;
+    border-top: 1px solid #A0A3A8;
+    border-right: 1px solid #A0A3A8;
+    
+}
+.cart{
+    width: 100%;
+    padding: 20px;
+    font-size: 20px;
+    border-top: 1px solid #A0A3A8;
+}
+.new{
+    position: absolute;
+   background-color:#F65005 ;
+    padding: 7px 25px 7px 25px;
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #fff;
+    top: 30px;
+    left: 30px;
+}

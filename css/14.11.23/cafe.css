@@ -1,0 +1,116 @@
+body{
+    font-family: "Inconsolata", sans-serif;
+   
+}
+.div{
+    background-color: #F7F5F2;
+}
+.contener{
+    width: 700px;
+    margin: 0 auto;
+}
+.header{
+    background-image: url("./coffeehouse.jpg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:80vh;
+}
+.row1{
+    background-color: black;
+    
+}
+.col1{
+    color: white;
+    padding: 10px;
+    font-family: 'Bungee', sans-serif;
+    font-family: 'Inconsolata', monospace;
+    
+}
+.col1:hover{
+    background-color: #ccc;
+    color: black;
+}
+.row2{
+    padding: 8px 16px;
+}
+.col2{
+    padding: 8px 16px;
+}
+.col2:hover{
+    background-color: #616161;
+    color: #fff;
+}
+.header-banner-title{
+    margin-top: 150px;
+    font-size: 6rem;
+    color: #fff;
+    font-family: "Inconsolata", sans-serif;
+}
+.banner-titles{
+    position: relative;
+    height: 25%;
+}
+.banner-title1{
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
+    font-size: larger;
+    color: #fff;
+    font-family: 'Inconsolata', monospace;
+    background-color: black;
+    padding-inline: 10px;
+}
+.banner-title2{
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    font-size: larger;
+    color: #fff;
+    font-family: 'Inconsolata', monospace;
+   
+    padding-inline: 10px;
+    
+}
+.about-cafe{
+    margin: 0 auto;
+}
+.cafe-title{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    padding-inline: 10px;
+    text-align: center;
+    letter-spacing: 4px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+.contener p {
+    
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: "Inconsolata", sans-serif;
+    line-height: 1.5;
+    font-size: 18px;
+}
+.div1{
+    background-color: #F1F1F1;
+}
+.div2{
+    background-color: #CCCCCC;
+    width: 10px;
+    height: 140px;
+    
+
+}
+.menu-title{
+    padding-inline: 10px;
+    padding-left: 20px;
+}

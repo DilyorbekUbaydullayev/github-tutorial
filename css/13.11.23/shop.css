@@ -1,0 +1,19 @@
+.header{
+    background-color: #212429;
+    height: 50vh;
+}
+.header-subtitle{
+    margin-top: 7rem;
+}
+.header-subtitle h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.header-subtitle p{
+    color: #8D9090;
+    
+}
+.footer{
+    background-color: #212429;
+    height: 12vh;
+}

@@ -1,0 +1,127 @@
+.main-section{
+    display: inline-block;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    
+  
+
+}
+.contener{
+    width: 1500px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#laptop{
+    display: inline-block;
+    position: relative;
+    bottom: -25px;
+    font-size: 24px;
+    color:#62C4F4;
+    
+}
+.main-section__icons {
+   display: flex;
+    justify-content: end;
+    font-size: 24px;
+    
+
+} 
+.main-section__icon{
+    margin-right: 50px;
+    text-decoration: none;
+    color: #62C4F4;
+}
+input{
+   border: 1px solid #62C4F4;
+   font-size: 24px;
+   border-radius: 5px;
+}
+
+.{
+    display: inline-block;
+    display: flex;
+    text-align: start;
+}
+.computer-model__names{
+    border: 1px solid #62C4F4;
+    border-radius: 5px;
+    width: 200px;
+    padding: 10px;
+    margin-top: 15px;
+}
+.pastki-qism{
+    display: flex;
+}
+.computer-models__img  {
+    display: flex;
+    flex-wrap: wrap;
+   margin-left: 300px;
+   margin-top: 10px;
+    
+   
+    
+}
+.computer{
+    flex-basis: calc(33% - 10px); /* 50% - 10px bo'lganda 2 ta element 1-qatorga joylashadi */
+    margin: 5px;
+    border: 1px solid #62C4F4;
+    border-radius: 5px;
+    height: 250px;
+    vertical-align: middle;
+    text-align: center;
+    position: relative;
+    padding-top: 20px;
+  
+  
+  
+   
+
+
+}
+.computer > img{
+   
+    height: 100px;
+}
+#button-star {
+    position: absolute;
+    right: 0;
+    top: 0;
+    
+
+}
+#button-cart{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.button-star{
+    width: 40px;
+    height: 40px;
+    border-bottom-left-radius: 15px;
+    border-color: #62C4F4;
+    text-decoration: none;
+    background-color: #ffffff;
+    border: none;
+    border: 1px solid #62C4F4;
+    border-top-right-radius: 5px;
+    border-top: none;
+    border-right: none;
+    color: yellow;
+}
+.button-cart{
+    width: 40px;
+    height: 40px;
+    border-top-right-radius: 15px;
+    border-color: #62C4F4;
+    text-decoration: none;
+    background-color: #ffffff;
+    border: none;
+    border: 1px solid #62C4F4;
+    border-bottom-left-radius: 5px;
+    border-bottom: none;
+    border-left: none;
+    color: #62C4F4;
+}

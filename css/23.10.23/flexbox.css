@@ -1,0 +1,177 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+.fist-section{
+    
+    padding: 10px;
+    padding-bottom: 100px;
+    background-color: #F6F2F1;
+}
+.fist-section_head{
+    
+    
+    background-color: black;
+    display: flex;
+    justify-content: center;
+   
+    
+    
+}
+
+.fist-section_head-item{
+    display: inline-block;
+   
+    padding: 30px 15px 30px 15px;
+   
+    
+}
+.fist-section_head-item a{
+    color: #ffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    
+    
+}
+.fist-section_head-item:hover{
+    background-color: red;
+}
+.fist-section_head-item.active  {
+   background-color: red;
+}
+.contener{
+    width: 1140px;
+    margin: 0 auto;
+}
+.contener2{
+    width: 1360px;
+    margin: 0 auto;
+}
+/* Birinchi qism chap tomon */
+.fist-section_left{
+    width: 40%;
+    
+}
+.fist-section_left h2 {
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.fist-section_left p {
+    font-size: 14px;
+    color: #B0AFAE;
+    line-height: 25px;
+}
+.button1{
+    text-transform: uppercase;
+    margin-top: 30px;
+    padding: 10px 35px 10px 35px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: 750;
+}
+/* Birinchi qism o'ng tomon */
+.fist-section_right{
+    
+    display: inline-block;
+    width: 42%;
+    height: 350px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+    background-color: #C2BFB0;
+    box-shadow: 1px -6px 60px 12px rgba(34, 40, 45, 0.29);
+    
+
+}
+
+.fist-section_body{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    
+   
+}
+/* ikkinchi qism */
+/* ikkinchi qism chap */
+.second-section_left{
+   
+    padding-right: 10px;
+}
+.second-section_left h2{
+    text-transform:uppercase;
+    font-size: 40px;
+    color:#575757 ;
+
+}
+.second-section_left p{
+    font-size: 14px;
+    color: #B0AFAE;
+    line-height: 25px;
+}
+.button2{
+    text-transform: capitalize;
+    margin-top: 30px;
+    padding: 5px 35px 5px 35px;
+    background-color:#fff;
+    color: red;
+    border: none;
+    border: 2px solid red;
+    border-radius: 5px;
+    font-weight: 800;
+    font-size: 16px;
+}
+/* ikkinchi qism o'ng */
+.second-section{
+    display: flex;
+    justify-content: space-between;
+    
+    
+    
+    
+}
+.second-section_right{
+    
+    /* display: flex; */
+    
+  
+   margin-top: 80px;
+
+   
+   
+    
+    
+}
+.right-icons{
+    display: flex;
+    /* flex-wrap: wrap; */
+    
+}
+.right-icon{
+   
+    padding-left: 30px;
+    
+}
+.right-icon i {
+    font-size: 36px;
+    color:#f1555f;
+}
+.right-icon h4 {
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #898989;
+}
+.right-icon p{
+    font-size: 14px;
+    color: #B0AFAE;
+}

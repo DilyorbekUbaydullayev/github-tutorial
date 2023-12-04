@@ -1,0 +1,76 @@
+body{
+    background: linear-gradient(125deg, rgba(171,68,174,1) 18%, rgba(243,66,156,1) 62%);
+    background-repeat: no-repeat;
+    height: 100vh;
+}    
+.div{ width: 15%;
+
+    margin: auto;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 30px;
+    font-family: calibri;
+    background-color: white;
+}
+.div2{
+  
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+    
+}
+h1{
+    text-align: center;
+    
+}
+.rangli__button{
+    width: 100%;
+    padding-top:10px;
+    padding-bottom: 10px; 
+    background: linear-gradient(125deg, rgba(171,68,174,1) 18%, rgba(243,66,156,1) 62%);
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+
+}
+.rangsiz__button{
+    background-color: white;
+    width: 100%;
+    padding-top:9px;
+    padding-bottom: 9px; 
+    border-radius: 0 5px 5px 0;
+    border: 1px solid rgb(134, 131, 131);
+    border-left: none;
+
+    
+}
+.rangli__a{
+    color:  #f3429c;
+    text-align: left;
+    text-decoration: none;
+}
+.rangsiz__a{
+   
+    text-align: left;
+    text-decoration: none;
+    color: black;
+   
+}
+.password{
+    margin-top: 10px;
+}
+input{
+    width: 100%;
+    padding-top:5px;
+    padding-bottom: 5px; 
+    color: rgb(113, 110, 110);
+    border-radius: 5px;
+  
+    border: 1px solid  rgb(113, 110, 110);;
+}
+#login{
+    border-radius: 5px 0 0 5px;
+}
