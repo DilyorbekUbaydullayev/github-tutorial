@@ -219,9 +219,21 @@
 // count=a[i].length
 // }
 
-let a={}
-a['name']=10;
-console.log(a);
+let n=3;
+console.log('1.');
+for(let i=0;i<n;i++){
+   
+    console.log('k');
+}
+
+
+let a=1;
+let b=5;
+console.log('2...........................................................');
+for(i=a;i<=b;i++){
+    console.log(i);
+}
+console.log(b-a+1+'ta son');
 
 
 

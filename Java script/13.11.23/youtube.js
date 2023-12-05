@@ -434,3 +434,20 @@
 //     }
 // }
 // ekran(1000);
+
+const numberOfSeries=+prompt("Nechta serial ko'rdingiz?", "");
+const seriesDB={
+    count: numberOfSeries,
+    series:{},
+    actors:{},
+    genres:{},
+    private: false,
+};
+const a = prompt("Oxirgi ko'rgan serialingiz?"),
+b=prompt("Necha baxo berasiz?"),
+c = prompt("Oxirgi ko'rgan serialingiz?"),
+d=prompt("Necha baxo berasiz?");
+
+seriesDB.series[a]=b;
+seriesDB.series[c]=d;
+console.log(seriesDB);
