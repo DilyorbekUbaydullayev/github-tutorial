@@ -1,0 +1,134 @@
+.div{
+    margin-top: 47px;
+    background-image: url('../rasmlar/doctor-s-hand-holding-stethoscope-closeup.jpg');
+    background-size: cover;
+    height: 650px;
+    position: relative;
+}
+.div2{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 650px;
+    background-color: #fff;
+    padding: 20px 30px 20px 30px;
+
+}
+.div2 h2{
+    font-weight: bold;
+    font-size: 48px;
+}
+.div2 p{
+    font-size: 25px;
+}
+
+.nav-item{
+    padding-inline: 30px;
+}
+.nav-item a{
+  font-size: 20px;
+  font-weight: 500;
+ 
+}
+.m a{
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: -20px;
+    color: #4291DE;
+}
+.col1{
+    text-align: center;
+    border: 3px solid #e8e7e7;
+    font-size: 30px;
+    font-weight: 500;
+    color: #4291DE;
+    padding: 5px;
+}
+.col2{
+line-height: 2;
+font-size: 26px;
+font-weight: 500;
+margin-left: 25px;
+}
+.col3 p{
+    color: #7b7b7b;
+    font-size: 22.8px;
+}
+.second-section{
+    margin-top: 100px;
+}
+.col4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+.circle{
+   font-size: 24px;
+   font-weight: bold;
+   color: #7b7b7b;
+   width: 400px;
+   height: 400px;
+   
+   
+}
+.circle p{
+    
+    text-align: center;
+
+}
+.p1{
+    margin-top: 40px;
+}
+.p2{
+    margin-top: -60px;
+    margin-right: 15px;
+}
+.images{
+    margin-top: 100px;
+   
+}
+.col5 img{
+    width: 100%;
+}
+.col6 img{
+    width: 100%;
+}
+.timeline{
+    margin-top: 100px;
+    text-align: center;
+   
+}
+.timeline h2{
+    margin-bottom: 50px;
+}
+.timeline-body{
+    margin-bottom: 100px;
+   
+}
+.popover {
+    background: #ffff99; /* rangni o'zgartirish */
+}
+.popover-title {
+    background: #ffff99; /* sarlavha rangini o'zgartirish */
+}
+.popover-content {
+    background: #ffff99; /* tarkib rangini o'zgartirish */
+}
+
+
+.fa-circle-check{
+    padding: 11px 5px; 
+}
+.fa-user-nurse{
+    padding: 13px 7px; 
+}
+.fa-book-open{
+    padding: 14px 6px;  
+}
+.fa-globe{
+    padding: 15px 7px;  
+}
+.fa-user{
+    padding: 15px 9px; 
+}

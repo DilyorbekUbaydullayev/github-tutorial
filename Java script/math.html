@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .div {
+          
+          display: flex;
+          justify-content: center;
+          gap: 50px;
+          margin: 0 auto;
+          margin-bottom: 20px;
+   
+        }
+    .button {
+        /* padding: 30px 100px; */
+        width: 200px;
+        height: 80px;
+        border-radius: 15px;
+        font-size:24px;
+        border: none;
+       
+        
+    }
+   
+   .otadiv{
+    margin: 0 auto;
+    margin-top: 50px;
+    border: 2px solid #000;
+    width: 80%;
+    padding: 50px;
+   }
+    </style>
+</head>
+<body>
+  <div class="otadiv">
+    <div class="div">
+      <button onclick="getData()" class="button" >TODOS</button>
+      <button onclick="getData1()" class="button" >DONE</button>
+      <button onclick="getData2()" class="button" >PROGRESS</button>
+    </div>
+    <div class="root">
+  
+    </div>
+  </div>
+    <script src="./math.js"></script>
+</body>
+</html>

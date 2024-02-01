@@ -1,0 +1,58 @@
+.ekran {
+width: 340px;
+height: 632px;
+border: 3px solid #000;
+border-radius: 15px;
+margin: 0 auto;
+}
+input{
+    margin-top: 130px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    width: 80%;
+    font-size: 36px;
+    border: none;
+
+    
+}
+
+.delete{
+    
+    padding: 15px 0px 5px 0px;
+    border: none;
+    background-color: #fff;
+    
+}
+.fa-delete-left{
+height: 100%;
+font-size: 30px;
+
+
+}
+.raqam{
+    display: flex;
+    justify-content:center;
+    gap: 30px;
+    
+    margin-bottom: 25px;
+
+}
+.button{
+    padding: 14px 23px ;
+    border-radius: 100%;
+    font-size: 32px;
+    border: none;
+}
+.qizil{
+    rotate: 135deg;
+    padding: 13px 16px ;
+    background-color: red;
+    border: none;
+
+
+}
+.yashil{
+    padding: 13px 16px ;
+    background-color: rgb(86, 237, 86);
+    border: none;
+}

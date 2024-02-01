@@ -219,26 +219,83 @@
 // count=a[i].length
 // }
 
-let n=3;
-console.log('1.');
-for(let i=0;i<n;i++){
+// let n=3;
+// console.log('1.');
+// for(let i=0;i<n;i++){
    
-    console.log('k');
+//     console.log('k');
+// }
+
+
+// let a=1;
+// let b=5;
+// console.log('2...........................................................');
+// for(i=a;i<=b;i++){
+//     console.log(i);
+// }
+// console.log(b-a+1+'ta son');
+
+// let raqamlar=0;
+// let a='q56a4xd89dsa54ds8ng42vv56';
+// for(let i=0;i<a.length;i++){
+//     if(Number(a[i])){
+//         raqamlar+=Number(a[i])
+//     }
+// }
+// console.log(raqamlar);
+
+// let b=['s','D','d','f','E'];
+// for(i=0;i<b.length;i++){
+//     if(b[i]==b[i].toLowerCase()){
+//         console.log(b[i]);
+//     }
+// }
+
+// let c=[23,-12,3,22,3,0,55];
+// let count=-25;
+// for(let i=0;i<c.length;i++){
+// count<c[i];
+// count=c[i]
+// }
+// console.log(count);
+//------------------------------------------------------------------------------------------------------------------------------------------------------------//
+let yigindi=0;
+for(let i=2;i<=100;i+=2){
+    yigindi+=i;
 }
-
-
-let a=1;
-let b=5;
-console.log('2...........................................................');
-for(i=a;i<=b;i++){
-    console.log(i);
+console.log(yigindi);
+//------------------------------------------------------------------------------------------------------------------------------------------------------------//
+let ar=[1, 1, 5, 6, 4, 3, 8, 7, 9, 9, 10] ;
+let count=0;
+for(let i=0;i<ar.length;i++){
+    if(ar[i]==i){
+        count++;
+    }
 }
-console.log(b-a+1+'ta son');
-
-
-
-
-   
+console.log(count);
+//------------------------------------------------------------------------------------------------------------------------------------------------------------//
+// 1+4-7+10-13+16-...+94-97+100.
+let count1=1;
+for(let i=2;i<=100;i+=3){
+    if(i%2==0){
+        count1+=i;
+    }else{
+        count1-=i;
+    }
+}
+console.log(count1);
+//---------------------------------------------------------------------------------------------------------------------------------------------------------//
+let meva=['olma', 'anor', 'behi', 'olcha', 'uzum', 'shaftoli', 'nok', 'banan'] ;
+let ameva=[];
+for(let i=0;i<meva.length;i++){
+    for(j=0;j<meva[i].length;j++){
+        if('a'==meva[i][j]){
+            ameva.push(meva[i]);
+            break
+        }
+    }
+}
+   console.log(ameva);
 
 
 

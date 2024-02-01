@@ -8,13 +8,13 @@
 
 // son(3);
 
-// const son = (number) => { 
+// const son = (number) => {
 //     if (number % 2 === 0) {
 //         console.log(`${number} is even`);
 //     } else {
 //         console.log(`${number} is odd`);
 //     }
-    
+
 // }
 
 // son(3);
@@ -30,7 +30,7 @@
 // function son(num1, num2) {
 //     if (num1 >= num2) {
 //         return num1;
-    
+
 // }
 // return num2;
 // }
@@ -38,13 +38,12 @@
 // const son = function (num1, num2) {
 //     if (num1 >= num2) {
 //         return num1;
-    
+
 // }
 // return num2;
 // }
 
 // console.log(son(3, 5));
-
 
 // const son = (num1,num2) => {
 //     if (num1 >= num2) {
@@ -59,7 +58,7 @@
 //     const sonStr=String(son);
 //     const raqamStr=sonStr.split('').reverse().join('');
 //     return Number(raqamStr);
-    
+
 // }
 // console.log(raqam(3135415135465431));
 
@@ -75,8 +74,6 @@
 // let a = prompt('Are you sure you want');
 
 // console.log(a);
-
-
 
 // for (let i = 0; i < 10; i++) {
 //     console.log(i);
@@ -99,7 +96,6 @@
 //     'what is your name?',
 //     'what is your age?',
 //     'what is your favorite color?',
-    
 
 // ];
 
@@ -115,13 +111,8 @@
 //     answers[i]=prompt(questions[i]);
 //     console.log(answers);
 //     i++;
-   
-    
-   
-    
+
 // }
-
-
 
 // while(i<questions.length);
 
@@ -131,7 +122,6 @@
 //     console.log(answers);
 //     i++;
 // }
-
 
 // let arr=[1,2,3,4,5,6,7,8,9,1];
 // let arr1=[1,2,3,4,5,6,7,];
@@ -218,7 +208,7 @@
 //         case 2:
 //             console.log('2-oy fevral');
 //             break;
-//         case 3:  
+//         case 3:
 //         console.log('3-oy mart');
 //         break;
 //         case 4:
@@ -237,7 +227,7 @@
 //             console.log('8-oy august');
 //             break;
 //         case 9:
-//             console.log('9-oy sentabr');  
+//             console.log('9-oy sentabr');
 //             break;
 //             case 10:
 //                 console.log('10-oy oktobr');
@@ -248,8 +238,7 @@
 //                     case 12:
 //                         console.log('12-oy deyabr');
 //                         break;
-                     
-       
+
 //     }
 // }
 
@@ -262,7 +251,7 @@
 //     switch (yonalishnomi) {
 //         case 'shimol':
 //             console.log('janub');
-            
+
 //             break;
 //             case 'janub':
 //             console.log('shimol');
@@ -273,8 +262,7 @@
 //                 case 'sharq':
 //                     console.log('garb');
 //                     break;
-    
-        
+
 //     }
 // }
 
@@ -293,9 +281,8 @@
 
 // const maxRange = 30;
 // const givenNumber = 20;
- 
-// inRange(givenNumber, minRange, maxRange);
 
+// inRange(givenNumber, minRange, maxRange);
 
 // const getLargestElement = (arr) => {
 //     let largest = arr[0];
@@ -303,7 +290,6 @@
 //         if (arr[i] > largest) {
 //             largest = arr[i];
 //         }
-    
 
 // }
 // return largest;
@@ -312,7 +298,7 @@
 // const nums = [26,44,84,5165,];
 // const result = getLargestElement(nums);
 // console.log(`Eng katta element: ${result}`);
- 
+
 // const headingchange = () => {
 //     const heading = document.getElementById('heading');
 //     heading.textContent= 'Yangi sarlavha';
@@ -320,14 +306,14 @@
 
 // const btn = document.getElementById('changeheading');
 // btn.addEventListener('click', headingchange);
-// Function to calculate the sum of an arithmetic series
+// // Function to calculate the sum of an arithmetic series
 // function sumArithmeticSeries(firstTerm, lastTerm, commonDifference) {
 //     const numberOfTerms = (lastTerm - firstTerm) / commonDifference + 1;
 //     const average = (firstTerm + lastTerm) / 2;
 //     const sum = numberOfTerms * average;
 //     return sum;
 //   }
-  
+
 //   // Calculate the sum of the series 1+5+9+...+93+97
 //   const firstTerm = 1;
 //   const lastTerm = 97;
@@ -378,7 +364,7 @@
 // let b=" bu so'z polindirom emas";
 // let kiyik='kiyik'
 // function polindirom(kiyik) {
-   
+
 // reversepolindirom=kiyik.split('').reverse().join('');
 // for (let i = 0; i < reversepolindirom.length; i++) {
 //     if (reversepolindirom[i] === kiyik[i]) {
@@ -390,7 +376,6 @@
 // }
 // polindirom(kiyik);
 // console.log(polindirom(kiyik))
-
 
 // // 1.
 // function number(son) {
@@ -426,7 +411,7 @@
 // //4.
 // function ekran(a) {
 //     if(576<a<720){
-//         return 
+//         return
 //     }else if(720<a<940){
 //         return md
 //     }else if(940<a){
@@ -434,20 +419,109 @@
 //     }
 // }
 // ekran(1000);
+const handleClick = ()=> {
+let a=document.getElementsByName('username')[0];
+console.log(a.value);
 
-const numberOfSeries=+prompt("Nechta serial ko'rdingiz?", "");
-const seriesDB={
-    count: numberOfSeries,
-    series:{},
-    actors:{},
-    genres:{},
-    private: false,
-};
-const a = prompt("Oxirgi ko'rgan serialingiz?"),
-b=prompt("Necha baxo berasiz?"),
-c = prompt("Oxirgi ko'rgan serialingiz?"),
-d=prompt("Necha baxo berasiz?");
+}
+// let teg = document.getElementsByClassName('h2'); //
+// let teh = document.getElementById('heading');
 
-seriesDB.series[a]=b;
-seriesDB.series[c]=d;
-console.log(seriesDB);
+// console.log(teg[0]);
+// console.log(heading);
+
+// function handleClick(){
+//     let teg = document.getElementById('root');
+//     let elem= document.createElement('div');
+//     elem.style.background='red';
+//     elem.style.width='300px';
+//     elem.style.height='300px';
+//     elem.style.margin='10px';
+
+//     teg.appendChild(elem);
+// }
+
+// function add(){
+//     let inp=document.getElementById('inp').value;
+
+//     let items=document.getElementById('root').childNodes;
+//     let status=false;
+
+//     for(let i=0; i<items.length;i++){
+//         if(inp==items[i].innerHTML){
+//             status=true;
+//             document.getElementById('error').style.display='block';
+//             break
+//         }
+//     }
+
+//     if(!status){
+//         document.getElementById('error').style.display='none';
+//         let elem=document.createElement('p');
+
+//         elem.innerHTML=inp;
+//     document.getElementById('root').appendChild(elem);
+    
+//     document.getElementById('inp').value='';
+
+//     }
+
+   
+
+// }
+
+function add(){
+    let inp=document.getElementById('inp').value;
+
+    let items=document.getElementById('root').childNodes;
+    let status=false;
+
+    for(let i=0; i<items.length;i++){
+        if(inp==items[i].innerHTML){
+            status=true;
+            document.getElementById('error').style.display='block';
+            break
+        }
+    }
+
+    if(!status){
+        document.getElementById('error').style.display='none';
+        let elem=document.createElement('p');
+
+        elem.innerHTML=inp;
+        document.getElementById('root').appendChild(elem);
+    
+        document.getElementById('inp').value='';
+
+        // Tahrirlash va o'chirish tugmalarini qo'shish
+        let editButton = document.createElement('button');
+        editButton.innerHTML = 'Tahrirlash';
+        editButton.onclick = function() {
+            let editInput = document.createElement('input');
+            editInput.type = 'text';
+            editInput.value = inp;
+            editInput.onchange = function() {
+                elem.innerHTML = editInput.value;
+                elem.appendChild(editButton);
+                elem.appendChild(deleteButton);
+            };
+            elem.innerHTML = '';
+            elem.appendChild(editInput);
+            editInput.focus();
+        };
+        elem.appendChild(editButton);
+
+        let deleteButton = document.createElement('button');
+        deleteButton.innerHTML = 'O\'chirish';
+        deleteButton.onclick = function() {
+            document.getElementById('root').removeChild(elem);
+        };
+        elem.appendChild(deleteButton);
+    }
+}
+
+  
+ 
+
+
+
